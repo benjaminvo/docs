@@ -1,20 +1,20 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Speckle Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3B82F6",
+    "light": "#3B82F6",
+    "dark": "#3B82F6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Get started",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Essentials",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Mintlify things",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -35,7 +35,38 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Workflows",
+        "groups": [
+          {
+            "group": "Business Intelligence",
+            "pages": [
+              "workflows/revit-to-powerbi",
+              "workflows/archicad-to-powerbi", 
+              "workflows/rhino-to-powerbi"]
+          }
+        ]
+      },
+      {
+        "tab": "Automate",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Viewer Library",
         "groups": [
           {
             "group": "API Documentation",
@@ -56,11 +87,6 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
         {
           "anchor": "Community",
           "href": "https://mintlify.com/community",
@@ -87,7 +113,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Sign up",
       "href": "https://dashboard.mintlify.com"
     }
   },
